@@ -25,7 +25,7 @@ Step 1: Import the Plugin
 1.  In Application Builder, open your target application.
 2.  Go to Shared Components ➔ Plug-ins.
 3.  Click Import.
-4.  Choose dynamic_action_plugin_erp_multi_level_nested_grid (1).sql and finish
+4.  Choose dynamic_action_plugin_erp_multi_level_nested_grid.sql and finish
     the installation wizard.
 
 Step 2: Prepare the Master Report (IR or IG)
