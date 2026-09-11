@@ -1,8 +1,19 @@
 {
   "name": "ERP Multi-Level Nested Grid",
   "version": "8.4.0",
-  "description": "Oracle APEX Dynamic Action plug-in that adds multi-level nested detail grids directly inside Interactive Reports and Grids, providing configurable SQL-based detail loading and row-level drill-down.",
-  "keywords": ["oracle", "apex", "plugin", "dynamic action", "interactive report", "interactive grid", "nested grid", "nested report", "drill down", "ERP"],
+  "description": "Oracle APEX Dynamic Action plug-in that adds multi-level nested detail grids directly inside Interactive Reports and Interactive Grids, providing configurable SQL-based detail loading and row-level drill-down.",
+  "keywords": [
+    "oracle",
+    "apex",
+    "plugin",
+    "dynamic action",
+    "interactive report",
+    "interactive grid",
+    "nested grid",
+    "nested report",
+    "drill down",
+    "ERP"
+  ],
   "homepage": "https://github.com/akirasa/apex-multi-level-nested-grid",
   "bugs": {
     "url": "https://github.com/akirasa/apex-multi-level-nested-grid/issues",
@@ -20,12 +31,18 @@
     "url": "https://github.com/akirasa/apex-multi-level-nested-grid.git"
   },
   "oracle": {
-    "versions": ["19.0.0.0.0"],
+    "versions": [
+      "19.0.0.0.0"
+    ],
     "apex": {
-      "versions": ["24.2.0"],
+      "versions": [
+        "24.2.0"
+      ],
       "plugin": {
         "internalName": "ERP_MULTI_LEVEL_NESTED_GRID",
-        "type": "dynamic action"
+        "type": "dynamic action",
+        "demo": "https://github.com/akirasa/apex-multi-level-nested-grid",
+        "previewImage": "https://raw.githubusercontent.com/akirasa/apex-multi-level-nested-grid/main/preview.png"
       }
     }
   }
